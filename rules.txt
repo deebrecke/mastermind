@@ -1,0 +1,20 @@
+MASTERMIND
+
+This is a logic game. The "master"(in this case, the computer) makes a pattern of 4 colors out of a list of
+6 possible colors (0-4 repeated colors). The "student" (user) guesses the four colors. The master gives
+a coded response: red "peg" for right-color-right-place, white "peg" for right-color-wrong-place,
+nothing if that color is not in the pattern.
+
+For this version of the game, only the first letter of each color is used.
+For example, the master's pattern is RED WHITE BLUE WHITE (indicated by RWBW).
+You guess: WBYW (for: WHITE, BLUE, YELLOW, WHITE).
+The computer gives the following response: red, white, white.
+For the same pattern, if you guess: RRYG (for: RED, RED, YELLOW, GREEN) the response would be: red.
+
+Please note: the computer gives you all the red "pegs" first, then the white ones.
+This does not indicate the location at which the correct colors sit. That is for you to figure out.
+
+Your "score" is the number of guesses it takes until you figure it out. The lower the score, the better you did (like golf).
+
+One hint per game is available. If you choose to get a hint, the program will tell you what color
+is in the first spot but, it will cost you two guesses on your score.
